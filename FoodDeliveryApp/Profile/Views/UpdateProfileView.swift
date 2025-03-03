@@ -97,6 +97,7 @@ struct ProfileView: View {
 //        }
         
         .onAppear {
+            
             Task {
                 if let userId = userManager.userId {
                     await viewModel.fetchUserDetails(userId: userId)
