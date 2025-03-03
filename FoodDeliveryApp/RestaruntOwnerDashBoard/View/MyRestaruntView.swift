@@ -96,3 +96,4 @@ struct MyRestaurantView: View {
         .navigationTitle("My Restaurants") // Navigation title
     }
 }
+//changes
